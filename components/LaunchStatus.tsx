@@ -20,7 +20,7 @@ export default function LaunchStatus({ status }: LaunchStatusProps) {
     : -1;
 
   return (
-    <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-xl border border-gray-200 dark:border-slate-700 p-6 h-[600px] flex flex-col">
+    <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-xl border border-gray-200 dark:border-slate-700 p-4 md:p-6 h-auto md:h-[600px] flex flex-col">
       <h3 className="text-xl font-bold mb-6 text-gray-900 dark:text-white">Launch Progress</h3>
 
       {!status ? (
