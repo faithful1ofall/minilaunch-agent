@@ -6,8 +6,8 @@ import { AgentBuilder } from "@iqai/adk";
  */
 export async function contractDeployerAgent() {
   const { agent, runner } = await AgentBuilder
-    .create("contract-deployer")
-    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.5-flash" : "gpt-4o")
+    .create("contract_deployer")
+    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.0-flash-exp" : "gpt-4o")
     .withDescription("Handles smart contract deployment strategy")
     .withInstruction(`You are a smart contract deployment specialist. Your role is to:
 

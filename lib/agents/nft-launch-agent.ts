@@ -9,8 +9,8 @@ import { AgentBuilder } from "@iqai/adk";
  */
 export async function createNFTLaunchAgent() {
   const { agent, runner } = await AgentBuilder
-    .create("nft-launch-orchestrator")
-    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.5-flash" : "gpt-4o")
+    .create("nft_launch_orchestrator")
+    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.0-flash-exp" : "gpt-4o")
     .withDescription("End-to-end NFT launch assistant")
     .withInstruction(`You are an NFT launch orchestrator. Guide users through:
 1. Metadata generation (name, description, traits, IPFS upload)
@@ -29,8 +29,8 @@ Provide step-by-step guidance and clear status updates.`)
  */
 export async function createCoordinatorAgent() {
   const { agent, runner } = await AgentBuilder
-    .create("nft-launch-coordinator")
-    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.5-flash" : "gpt-4o")
+    .create("nft_launch_coordinator")
+    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.0-flash-exp" : "gpt-4o")
     .withDescription("Coordinates NFT launch workflow and user interaction")
     .withInstruction(`You are an expert NFT launch assistant. Your role is to:
     

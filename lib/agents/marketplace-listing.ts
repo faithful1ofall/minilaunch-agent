@@ -6,8 +6,8 @@ import { AgentBuilder } from "@iqai/adk";
  */
 export async function marketplaceListingAgent() {
   const { agent, runner } = await AgentBuilder
-    .create("marketplace-listing")
-    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.5-flash" : "gpt-4o")
+    .create("marketplace_listing")
+    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.0-flash-exp" : "gpt-4o")
     .withDescription("Handles marketplace listing and optimization")
     .withInstruction(`You are a marketplace listing specialist. Your role is to:
 

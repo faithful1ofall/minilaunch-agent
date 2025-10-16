@@ -6,8 +6,8 @@ import { AgentBuilder } from "@iqai/adk";
  */
 export async function metadataGeneratorAgent() {
   const { agent, runner } = await AgentBuilder
-    .create("metadata-generator")
-    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.5-flash" : "gpt-4o")
+    .create("metadata_generator")
+    .withModel(process.env.GOOGLE_API_KEY ? "gemini-2.0-flash-exp" : "gpt-4o")
     .withDescription("Generates NFT metadata following industry standards")
     .withInstruction(`You are an NFT metadata specialist. Your role is to:
 
