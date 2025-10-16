@@ -9,6 +9,20 @@ MiniLaunch Agent is a production-ready, full-stack application that leverages AI
 ![ADK-TS](https://img.shields.io/badge/ADK--TS-0.5-purple?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+> 🏆 **Hackathon Submission**: See [HACKATHON_SUBMISSION.md](HACKATHON_SUBMISSION.md) for complete project overview and ADK-TS integration details.
+
+---
+
+## 📋 Documentation
+
+- 🏆 **[Hackathon Submission](HACKATHON_SUBMISSION.md)** - Complete project overview for judges
+- 🤖 **[ADK-TS Usage Guide](ADK_TS_USAGE.md)** - Detailed framework integration
+- ⚡ **[Quick Start Guide](QUICKSTART.md)** - Get started in 5 minutes
+- 🚀 **[Deployment Guide](DEPLOYMENT.md)** - Deploy to production
+- 🎨 **[UI Rebuild Summary](UI_REBUILD_SUMMARY.md)** - Design decisions
+- ✅ **[Setup Complete](SETUP_COMPLETE.md)** - Configuration status
+- 🔧 **[Agent Fix](AGENT_FIX_COMPLETE.md)** - Technical solutions
+
 ---
 
 ## ✨ Features
